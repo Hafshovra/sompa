@@ -1,0 +1,132 @@
+body{
+  font: 15px/1.5 Arial;
+  padding: 0;
+  margin: 0;
+  background-color:oldlace;
+}
+/* Global */
+.container{
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+header {
+  background: black;
+  color: red;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+}
+
+header .highlight, header .current a{
+    color: #33cc00;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: blue;
+  font-weight: lighter;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url(Chrysanthemum.jpg) 800px;
+ text-align: center;
+ color: white;
+}
+
+#showcase h1 {
+  margin-top:100px;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* webpage*/
+#webpage {
+  padding: 15px;
+  color: red;
+  background: #35424a;
+}
+
+#webpage h1 {
+ float: Right;
+}
+
+#webpage form {
+  float: right;
+  margin-top: 15px;
+}
+
+#webpage input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* boxes*/
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width:60px;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: blue;
+  background-color: Black;
+  text-align: center;
+}
+
+
+
